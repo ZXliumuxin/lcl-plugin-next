@@ -1,16 +1,3 @@
-import comp from "E:/shangchuan/test-button/docs/.vuepress/.temp/pages/components/guide/index.html.vue"
-const data = JSON.parse("{\"path\":\"/components/guide/\",\"title\":\"lcl-plugin-next\",\"lang\":\"zh-CN\",\"frontmatter\":{\"lang\":\"zh-CN\",\"title\":\"lcl-plugin-next\",\"description\":\"lcl-plugin-next 插件库\",\"base\":\"/guide\",\"head\":[[\"link\",{\"rel\":\"icon\",\"href\":\"/images/hero.png\"}]]},\"headers\":[],\"git\":{},\"filePathRelative\":\"components/guide/index.md\"}")
+import comp from "E:/shangchuan/text-button-github/docs/.vuepress/.temp/pages/components/guide/index.html.vue"
+const data = JSON.parse("{\"path\":\"/components/guide/\",\"title\":\"lcl-plugin-next\",\"lang\":\"zh-CN\",\"frontmatter\":{\"lang\":\"zh-CN\",\"title\":\"lcl-plugin-next\",\"description\":\"lcl-plugin-next 插件库\",\"base\":\"/guide\",\"head\":[[\"link\",{\"rel\":\"icon\",\"href\":\"/images/hero.png\"}]]},\"headers\":[],\"git\":{\"updatedTime\":1722843170000,\"contributors\":[{\"name\":\"liucc666\",\"email\":\"1358311652@qq.com\",\"commits\":1}]},\"filePathRelative\":\"components/guide/index.md\"}")
 export { comp, data }
-
-if (import.meta.webpackHot) {
-  import.meta.webpackHot.accept()
-  if (__VUE_HMR_RUNTIME__.updatePageData) {
-    __VUE_HMR_RUNTIME__.updatePageData(data)
-  }
-}
-
-if (import.meta.hot) {
-  import.meta.hot.accept(({ data }) => {
-    __VUE_HMR_RUNTIME__.updatePageData(data)
-  })
-}

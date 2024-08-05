@@ -90,7 +90,7 @@ l.install = (e) => (e.component(l.name, l), e);
 var x = [a, l];
 var z = (e) => {
   for (const t of x)
-    console.log(t.name), e.component(t.name, t);
+    e.component(t.name, t);
 };
 export {
   a as LButton,

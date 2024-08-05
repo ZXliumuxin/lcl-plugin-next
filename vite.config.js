@@ -11,6 +11,7 @@ export default defineConfig({
       "/@": pathSrc
     }
   },
+  root: "./",
   build: { // 构建配置
     emptyOutDir: true, // 清空输出目录
     lib: { // 库构建选项
