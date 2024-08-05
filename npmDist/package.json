@@ -1,0 +1,29 @@
+{
+  "name": "lcl-plugin-next",
+  "version": "1.0.12",
+  "private": false,
+  "type": "module",
+  "main": "lcl-plugin-next.umd.cjs",
+  "module": "lcl-plugin-next.js",
+  "exports": {
+    "./css": "style.css",
+    ".": {
+      "import": "lcl-plugin-next.js",
+      "require": "lcl-plugin-next.umd.cjs"
+    }
+  },
+  "description": "Vue3 UI Components Library. lcl-plugin-next",
+  "keywords": [
+    "Vue3",
+    "Vite",
+    "lcl-plugin-next",
+    "UI",
+    "Components",
+    "Tools"
+  ],
+  "author": "lcl",
+  "license": "ISC",
+  "browserslist": [
+    "> 1%"
+  ]
+}
